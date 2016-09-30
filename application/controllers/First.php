@@ -24,5 +24,20 @@ class First extends Application
 
         $this->render();
     }
+    public function zzz()
+    {
+
+        $this->data['pagebody'] = 'justone';
+
+
+        $record = $this->quotes->get(1);
+
+        $this->data['who'] = $record['who'];
+        $this->data['mug'] = $record['mug'];
+        $this->data['href'] = $record['where'];
+        $this->data['what'] = $record['what'];
+
+        $this->render();
+    }
 
 }
