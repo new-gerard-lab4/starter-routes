@@ -8,6 +8,7 @@ All notable changes to this project will be documented in this file. Created by 
 ### Added
  - added #1 issue @New3
  - added #2 issue @New3
+ - added #3 issue @New3
  
 ## [0.1.0] - [date to be determined]
 ### Added
