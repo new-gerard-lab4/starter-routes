@@ -5,6 +5,10 @@ All notable changes to this project will be documented in this file. Created by 
 ### Added
 - forked starter-routes @gerardng, @New3
  
+### Added
+ - added #1 issue @New3
+ - added #2 issue @New3
+ 
 ## [0.1.0] - [date to be determined]
 ### Added
 - space reserved for final release
