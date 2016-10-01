@@ -21,7 +21,10 @@ All notable changes to this project will be documented in this file. Created by 
  - Created wildcard and routing on Welcome.php  #5 issue @New3
  
 ### Changed - 2016-09-30
- - Added a  callback function that sets a suitable mime-type header and then returns a random SFW image in the data folder #6 issue @gerardng
+ - Added a callback function that sets a suitable mime-type header and then returns a random SFW image in the data folder #6 issue @gerardng
+ 
+### Added - 2016-09-30
+ - Added another router remapped using regular expression (4 letters / bingo) Bingo.php  #7 issue @gerardng
  
 ## [0.1.0] - [date to be determined]
 ### Added
