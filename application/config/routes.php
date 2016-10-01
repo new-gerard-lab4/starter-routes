@@ -66,3 +66,6 @@ $route['dunno'] = function(){
     // we don't have to go any further
     die();
 };
+
+// 4 characters
+$route['[a-zA-z]{4}/bingo'] = 'Bingo';
