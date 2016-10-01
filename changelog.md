@@ -32,6 +32,6 @@ All notable changes to this project will be documented in this file. Created by 
 ### Added - 2016-10-01
  - Hook implemented to replace 4-letter words with **** #9 Issue @gerardng
 
-## [1.0.0] - [date to be determined]
+## [1.0.0] - 2016-10-01
 ### Added
-- space reserved for final release
+- Released
