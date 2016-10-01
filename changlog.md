@@ -25,7 +25,11 @@ All notable changes to this project will be documented in this file. Created by 
  
 ### Added - 2016-09-30
  - Added another router remapped using regular expression (4 letters / bingo) Bingo.php  #7 issue @gerardng
- 
+
+### Added - 2016-09-30
+ - Added Wise.php #8 Issue @gerardng
+
+
 ## [0.1.0] - [date to be determined]
 ### Added
 - space reserved for final release
