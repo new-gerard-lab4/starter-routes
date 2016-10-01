@@ -52,3 +52,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route['sleep'] = "first/zzz";
+$route['lock/(:any)/(:any)'] = 'Welcome/shucks';
+$route['show/(:num)'] = "first/gimme/$1";
+
+$route['dunno'] = function(){
+    $source = './data/surprise.jpg';
+    // set mime type for the image
+    header("Content-type: image/jpeg");
+    header('Content-Disposition: inline');
+    // dish it
+    readfile($source);
+    // we don't have to go any further
+    die();
+};
+
+// 4 characters
+$route['[a-zA-z]{4}/bingo'] = 'Bingo';
+
+// comp1234 /.
+$route['comp(\d+)/(.*)'] = 'Wise/Bingo';
